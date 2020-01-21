@@ -23,6 +23,10 @@ public class Controller {
 
     @FXML
     void sendSvar(ActionEvent event) {
+        int innAlder, innFødtDag, innFødtMåned, innFødtÅr;
+        try{
+            innAlder = Integer.parseInt(txtAlder.getText());
+        }
 
     }
 
